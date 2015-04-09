@@ -8,6 +8,24 @@
 
 #import "Car.h"
 
-@implementation Car
+@implementation Car {
+    
+    // Private instance variables
+    
+    double _odemeter;
+    
+}
+
+
+@synthesize model = _model; // Optional for Xcode 4.4+
+
+
+- (void) drive {
+    
+    NSLog(@"Driving a %@. Vrooooom!", self.model);
+
+}
+
+
 
 @end

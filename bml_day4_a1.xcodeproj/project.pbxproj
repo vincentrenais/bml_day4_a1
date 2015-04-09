@@ -44,7 +44,8 @@
 		B7049A4E1AD6EB90009ED303 = {
 			isa = PBXGroup;
 			children = (
-				B7049A641AD6EC87009ED303 /* Model */,
+				B7049A611AD6EC7A009ED303 /* Car.h */,
+				B7049A621AD6EC7A009ED303 /* Car.m */,
 				B7049A591AD6EB90009ED303 /* bml_day4_a1 */,
 				B7049A581AD6EB90009ED303 /* Products */,
 			);
@@ -64,15 +65,6 @@
 				B7049A5A1AD6EB90009ED303 /* main.m */,
 			);
 			path = bml_day4_a1;
-			sourceTree = "<group>";
-		};
-		B7049A641AD6EC87009ED303 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B7049A611AD6EC7A009ED303 /* Car.h */,
-				B7049A621AD6EC7A009ED303 /* Car.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
