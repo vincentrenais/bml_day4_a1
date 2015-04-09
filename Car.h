@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Car.h
 //  bml_day4_a1
 //
 //  Created by Vincent Renais on 2015-04-09.
@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
+@interface Car : NSObject {
 
-        
-        
-    }
-    return 0;
+// Protected instance variables (not recommended)
+
 }
+
+@property (copy) NSString *model;
+
+- (void) drive;
+
+@end
