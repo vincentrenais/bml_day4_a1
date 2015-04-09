@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B7049A5B1AD6EB90009ED303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7049A5A1AD6EB90009ED303 /* main.m */; };
 		B7049A631AD6EC7A009ED303 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B7049A621AD6EC7A009ED303 /* Car.m */; };
+		B7049A6A1AD7194E009ED303 /* Q1&2-Ipad.m in Sources */ = {isa = PBXBuildFile; fileRef = B7049A691AD7194E009ED303 /* Q1&2-Ipad.m */; };
+		B7049A6C1AD71A71009ED303 /* Q1&2-iPadMain.m in Sources */ = {isa = PBXBuildFile; fileRef = B7049A6B1AD71A71009ED303 /* Q1&2-iPadMain.m */; };
+		B7049A6E1AD71CCC009ED303 /* Q3&4.m in Sources */ = {isa = PBXBuildFile; fileRef = B7049A6D1AD71CCC009ED303 /* Q3&4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,10 @@
 		B7049A5A1AD6EB90009ED303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7049A611AD6EC7A009ED303 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		B7049A621AD6EC7A009ED303 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		B7049A681AD7194E009ED303 /* Q1&2-Ipad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Q1&2-Ipad.h"; sourceTree = "<group>"; };
+		B7049A691AD7194E009ED303 /* Q1&2-Ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Q1&2-Ipad.m"; sourceTree = "<group>"; };
+		B7049A6B1AD71A71009ED303 /* Q1&2-iPadMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Q1&2-iPadMain.m"; sourceTree = "<group>"; };
+		B7049A6D1AD71CCC009ED303 /* Q3&4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Q3&4.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,10 @@
 		B7049A4E1AD6EB90009ED303 = {
 			isa = PBXGroup;
 			children = (
+				B7049A6D1AD71CCC009ED303 /* Q3&4.m */,
+				B7049A6B1AD71A71009ED303 /* Q1&2-iPadMain.m */,
+				B7049A681AD7194E009ED303 /* Q1&2-Ipad.h */,
+				B7049A691AD7194E009ED303 /* Q1&2-Ipad.m */,
 				B7049A611AD6EC7A009ED303 /* Car.h */,
 				B7049A621AD6EC7A009ED303 /* Car.m */,
 				B7049A591AD6EB90009ED303 /* bml_day4_a1 */,
@@ -123,8 +134,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7049A6E1AD71CCC009ED303 /* Q3&4.m in Sources */,
 				B7049A631AD6EC7A009ED303 /* Car.m in Sources */,
+				B7049A6C1AD71A71009ED303 /* Q1&2-iPadMain.m in Sources */,
 				B7049A5B1AD6EB90009ED303 /* main.m in Sources */,
+				B7049A6A1AD7194E009ED303 /* Q1&2-Ipad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
