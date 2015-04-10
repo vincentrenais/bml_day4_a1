@@ -23,16 +23,12 @@ int main(int argc, const char * argv[]) {
         
         // Create an instance of the initiateX method
         
-        NSNumber *x = [newCoordinate initiateX:@25];
+        NSArray *coordinates = [newCoordinate initiateCoordinates:@25:@200];
         
         
-        // Create an instance of the initiateY method
+        // NSLog the result to the console
         
-        NSNumber *y = [newCoordinate initiateY:@200];
-        
-        
-        
-        NSLog(@"The value of the Cartesian coordinates are (%@,%@)", x, y);
+        NSLog(@"The value of the Cartesian coordinates are (%@,%@)",coordinates[0] , coordinates[1]);
 
         
         

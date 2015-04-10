@@ -16,11 +16,10 @@
 @property NSNumber *x;
 @property NSNumber *y;
 
-// Declare a method to set and retreive each coordinate
 
-- (NSNumber *) initiateX : (NSNumber *)valueOfX;
+// Declare a method to set, retreive and store in an array each coordinate
 
-- (NSNumber *) initiateY : (NSNumber *)valueOfY;
+- (NSArray *) initiateCoordinates : (NSNumber *)valueOfX : (NSNumber *)valueOfY;
 
 
 @end

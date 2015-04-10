@@ -12,20 +12,23 @@
 
 // Implementation of the initiateX method
 
-- (NSNumber *) initiateX : (NSNumber *)valueOfX {
+- (NSArray *) initiateCoordinates : (NSNumber *)valueOfX : (NSNumber *)valueOfY {
     
     self.x = valueOfX;
-    
-    return self.x;
-}
-
-// Implementation of the initiateY method
-
-- (NSNumber *) initiateY : (NSNumber *)valueOfY {
-    
     self.y = valueOfY;
     
-    return self.y;
+    
+    // Create an array to store both coordinates
+    
+    NSArray *coordinate = [[NSArray alloc] init];
+    
+    // Store the coordinates in an array
+    
+    coordinate = @[self.x, self.y];
+    
+    // Return the array
+    
+    return coordinate;
 }
 
 @end
