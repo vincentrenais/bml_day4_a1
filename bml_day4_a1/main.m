@@ -8,11 +8,37 @@
 
 #import <Foundation/Foundation.h>
 #import "Car.h"
+#import "XYPoint.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
-        Car *toyota = [[Car alloc] init];
+// QUESTION 6 : Define a class called XYPoint that will hold a Cartesian coordinate (x, y), where x and y are integers. Define methods to individually set the x and y coordinates of a point and retrieve their values. Write an Objective-C program to implement your new class and test it.
+
+        
+        // Create an instance of the XYPoint class
+        
+        XYPoint *newCoordinate = [[XYPoint alloc] init];
+        
+        
+        // Create an instance of the initiateX method
+        
+        NSNumber *x = [newCoordinate initiateX:@25];
+        
+        
+        // Create an instance of the initiateY method
+        
+        NSNumber *y = [newCoordinate initiateY:@200];
+        
+        
+        
+        NSLog(@"The value of the Cartesian coordinates are (%@,%@)", x, y);
+
+        
+        
+        
+        
+/*        Car *toyota = [[Car alloc] init];
         
         [toyota setModel:@"Toyota Corolla"];
         NSLog(@"Created a %@", [toyota model]);
@@ -61,7 +87,7 @@ int main(int argc, const char * argv[]) {
         if (NSClassFromString(@"Car") == [Car class]) {
             NSLog(@"I can convert between strings and classes!");
         }
-        
+*/
         
         
     

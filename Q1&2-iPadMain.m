@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
+/*
+
 #import <Foundation/Foundation.h>
 #import "iPad.h"
 
@@ -24,3 +26,5 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+*/

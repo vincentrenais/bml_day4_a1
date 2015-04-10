@@ -6,6 +6,8 @@
 //  Copyright (c) 2015 Vincent Renais. All rights reserved.
 //
 
+/*
+
 #import "Ipad.h"
 
 @implementation Ipad
@@ -32,3 +34,5 @@
 
 
 @end
+ 
+ */
